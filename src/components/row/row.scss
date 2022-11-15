@@ -1,0 +1,9 @@
+.row-container{
+  --gap: 15px; 
+  display: flex; 
+  max-width: 100%; 
+  width: 100%; 
+  flex-wrap: wrap; 
+  gap: var(--gap); 
+  --columns: 4; 
+}

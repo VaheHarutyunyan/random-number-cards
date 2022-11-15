@@ -1,0 +1,12 @@
+.layout{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .common{
+    display: flex;
+    column-gap: 10px;
+    flex: 1 1 100%;
+    padding:10px 30px;
+    background: #7C94B5;
+  }
+}

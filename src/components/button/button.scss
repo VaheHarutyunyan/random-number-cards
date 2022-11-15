@@ -1,0 +1,25 @@
+.btn{
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #292A29;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    &.btn-yellow{
+        background: #F0D164;
+    }
+    &.btn-outline{
+        background: #ECCDCE;
+    }
+}
+.btn-icon{
+    background: none;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+}
